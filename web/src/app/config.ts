@@ -1,0 +1,1 @@
+export const { API_URL, IMAGE_URL } = process.env;

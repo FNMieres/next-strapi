@@ -1,0 +1,16 @@
+{
+  "name": "next-strapi",
+  "version": "1.0.0",
+  "description": "CMS with Next.js 13 and Strapi",
+  "author": "Federico Mieres",
+  "workspaces": [
+    "api",
+    "web"
+  ],
+  "scripts": {
+    "dev:api": "npm run develop -w api",
+    "dev:web": "npm run dev -w web",
+    "dev": "npm run dev:web & npm run dev:api",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
